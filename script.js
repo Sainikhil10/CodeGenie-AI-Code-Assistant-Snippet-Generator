@@ -6,8 +6,8 @@ const codeOutput = document.getElementById('code-output');
 const errorSection = document.getElementById('error-section');
 const copyBtn = document.getElementById('copy-btn');
 
-// Replace 'YOUR_OPENAI_API_KEY' with your real OpenAI API key
-const OPENAI_API_KEY = 'YOUR_OPENAI_API_KEY';
+// Replace 'sk-your-real-api-key-here' with your actual OpenAI API key
+const OPENAI_API_KEY = 'sk-your-real-api-key-here';
 
 generateBtn.addEventListener('click', async () => {
   const prompt = promptInput.value.trim();
