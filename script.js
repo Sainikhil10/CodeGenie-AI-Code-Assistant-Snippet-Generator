@@ -7,7 +7,7 @@ const errorSection = document.getElementById('error-section');
 const copyBtn = document.getElementById('copy-btn');
 
 // Replace 'sk-your-real-api-key-here' with your actual OpenAI API key
-const OPENAI_API_KEY = 'sk-your-real-api-key-here';
+const OPENAI_API_KEY = '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';
 
 generateBtn.addEventListener('click', async () => {
   const prompt = promptInput.value.trim();
