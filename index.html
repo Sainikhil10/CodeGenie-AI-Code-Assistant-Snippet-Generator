@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CodeGenie - AI Code Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>CodeGenie</h1>
+    <p>Generate code snippets from natural language prompts</p>
+  </header>
+
+  <main>
+    <textarea id="prompt-input" placeholder="Describe the code you want (e.g., Java function to reverse a string)" rows="5"></textarea>
+    <select id="language-select">
+      <option value="javascript">JavaScript</option>
+      <option value="python">Python</option>
+      <option value="java">Java</option>
+      <option value="csharp">C#</option>
+      <option value="cpp">C++</option>
+      <option value="go">Go</option>
+      <option value="ruby">Ruby</option>
+    </select>
+    <button id="generate-btn">Generate Code</button>
+
+    <section id="result-section" style="display:none;">
+      <h2>Generated Code:</h2>
+      <pre id="code-output"></pre>
+      <button id="copy-btn">Copy to Clipboard</button>
+    </section>
+
+    <section id="error-section" style="display:none; color:red;"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
